@@ -214,10 +214,7 @@ public class Jugador {
         else                             return "Diamante";
     }
 
-    // Calcula el valor en puntos de una carta según las reglas del juego.
-    // As, J, Q, K = 10 puntos.
-    // Para el resto: ordinal() da su posición en NombreCarta.java (DOS=1, TRES=2, ..., DIEZ=9)
-    // y sumándole 1 obtenemos el valor real (DOS=2, TRES=3, ..., DIEZ=10).
+    
     private int getValor(Carta carta) {
         NombreCarta nombre = carta.getNombre();
 
